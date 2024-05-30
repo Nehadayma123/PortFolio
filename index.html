@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+    <!-- home page  -->
+    <div id="header">
+    <div class="container">
+    <nav>
+        <img src="images.png"alt="logo" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p><span>Java developer</span></p>
+        <h2> I'm <span>Neha Dayma<span> from Indore, India</h2>
+    </div>
+    </div>
+</div>
+<!-- about us page  -->
+<div id="about">
+   <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="work-working-from-home.gif" alt="image">
+        </div>
+        <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>Computer science engineering student. 
+                My domain expertise is java as well as Front-end developer. I have learned the importance of applying classical strategies to modern day projects.
+
+            </p>
+            <div class="tab-titles">
+                <!-- javascript onclick -->
+                <p class="tab-links activelink" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tabcontents activetab" id="skills">
+            <ul>
+            <li><span>Web-design (Front-end)</span><br> HTML, CSS, Javascript</li>
+            <li><span>Programming language</span><br>Knowledge of C/C++, Java, OOPS, Data Structure  </li>
+            <li><span>Database</span><br>SQL, MongoDB</li>
+            <li><span>Tools/Platforms</span><br>Git, Github, MySQL, VS Code</li>
+
+        </ul>
+    </div>
+    <div class="tabcontents" id="Certifications">
+        <ul>
+        <li><span>Programming Basics </span><br> IITBX with A+ grade</li>
+        <li><span>SQL Basics</span><br> Sololearn</li>
+        <li><span>Soft skills certificate</span><br>  Barclays GTT foundation and TCS ION</li>
+    </ul>
+</div>
+<div class="tabcontents" id="education">
+    <ul>
+    <li><span>B.Tech Computer Science : 2020-2024 </span><br>Sushila Devi Bansal College Of Technology, Indore</li>
+    <li><span>12<sup>th</sup>class : 2020</span><br>Vivekanand Vidhya Vihar School, Mhow </li>
+    <li><span>10<sup>th</sup>class : 2018</span><br>Yashwant Public Sec School, Mhow </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- -----------Projects--------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img id="c" src="https://poshhelp.in/wp-content/uploads/2023/02/InternalCommitee.png">
+                <div class="layer">
+                    <h3>Women Internal Complaints Committee</h3>
+                    <p>I made a website in order to provide safe environment to our womens.<br>Front-end : HTML, CSS, JavaScript <br>Back-end : PHP, MySQL </p>
+                    <!-- <a href="https://github.com/letscodewithmohit/Calculator_LGM"  target="_main"><i class="fas fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img  id="t" src="elect1.jpg">
+                <div class="layer">
+                    <h3>Electricity Billing System</h3>
+                    <p>I made a desktop application  where users can get instant electricity bill and pay them online <br>Front-end : Java(Swing and AWT) <br>Back-end : MySQL</p>
+                    <!-- <a href="https://github.com/letscodewithmohit/Task_to_do_LGM-1" target="_main"><i class="fas fa fa-external-link"></i></a> -->
+                </div> 
+            </div>
+            <div class="work">
+                <img id="r"src="ben.png">
+                <div class="layer">
+                    <h3>Ben 10 game</h3>
+                    <p>I made a game website to our childrens enjoyment.<br>Front-end : HTML, CSS, JavaScript </p>
+                    <!-- <a href="https://github.com/letscodewithmohit/registration-form4"  target="_main"><i class="fas fa fa-external-link"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Nehadayma123?tab=repositories" target="_main" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------Contact me----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-paper-plane"></i>nehadayma887@gmail.com</p>
+<!--                 <p><i class="fa fa-phone-square"></i>+91</p> -->
+                <br>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/Neha Dayma/" target="_main" class="fa fa-facebook"></a> 
+                <a href="https://www.linkedin.com/in/neha-dayma-2945a6229/" target="_main" class="fa fa-linkedin"></a>  
+                <a href="https://www.instagram.com/nia_kushwah/" target="_main" class="fa fa-instagram"></a>  
+                <a href="https://youtube.com" target="_main" class="fa fa-youtube"></a>  
+                </div>
+                <a href="resume.png" target="_main" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text"name="Name" placeholder="Your Name" required>
+                    <input type="email"name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@nehadayma</p>
+    </div>
+</div>
+<!-- ---------javascript code----------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelink");
+        }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activetab");
+    }
+</script>
+
+<!-- another function java script -->
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+  <!--        form     -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyPjtRxUSXwvJSJYyl2xzqXNn5XYzGnzTLwnib-rGdOv30Xyg_Gl1j1oM8p_d6qvW1XIw/exec'
+    const form = document.forms['submit-to-google-sheet']
+//  for the last button
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully" 
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
